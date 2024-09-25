@@ -1,0 +1,308 @@
+body {
+    overflow-x:hidden;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    color: rgb(51, 51, 51);
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+    
+}
+
+.nav-elements {
+    color: rgb(76, 88, 102);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+}
+
+a.nav-elements:hover {
+    color: rgb(89, 89, 237)
+}
+
+.main {
+    
+    height: 620px;
+    display: flex;
+    
+    justify-content: space-between;
+    
+
+    
+}
+
+/* .background {
+    height: 1336px;
+    width: 670px;
+    background: url(./img/Layer\ 2\ copy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 130px;
+    z-index: -2;
+   
+} */
+
+.left {
+    width: 440px;
+}
+.katalog_button {
+    display: block;
+    margin-top: 53px;
+    padding: 20px 50px 20px 50px;
+    border: 1px solid rgb(120, 117, 254);
+    width: 255px;
+    height: 70px;
+    background-color: white;
+    color: rgb(120, 117, 254);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 130px;
+    
+}
+.about_product {
+    display: inline-block;
+    padding-top: 30px;
+    color: rgb(133, 133, 155);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+h1 {
+    margin: 0;
+    padding-top: 130px;
+    color: rgb(76, 88, 102);
+
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.right {
+    padding-top: 60px;
+}
+
+#content {
+    height: 973px;
+    background-color: rgb(237, 237, 237);
+    position: absolute;
+    top: 700px;
+    z-index: -1;
+    width: 100vw;
+}
+/* gap 30 */
+.main2 { 
+    padding-top: 71px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+
+.div_1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid;
+    border-color: rgb(133, 133, 155);
+    padding-top: 19px;
+    color: rgb(133, 133, 155);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+.belizna {
+    padding-top: 90px;
+    display: flex;
+    padding-bottom: 181px;
+}
+
+.paper_text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(133, 133, 155);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+h2 {
+    color: rgb(102, 102, 102);
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+    margin-top: 59px;
+}
+
+.img_paper {
+    flex-shrink: 2;
+}
+
+.katalog {
+    height: 465px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 108px;
+}
+
+.cartochka {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nazv {
+    padding: 20px 0px 10px;
+}
+h3 {
+    color: rgb(102, 102, 102);
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+}
+
+.kolvo {
+    color: rgb(181, 181, 189);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.opisanie {
+    color: rgb(133, 133, 155);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.podrobneee {
+    color: rgb(120, 117, 254);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+.podrobnee {
+    padding-top: 10px;
+}
+
+#content2 {
+    height: 315px;
+    background-color: rgb(237, 237, 237);
+    position: absolute;
+    top: 2320px;
+    z-index: -1;
+    width: 100vw;
+}
+.company {
+    height: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.podkom1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid;
+    border-color: rgb(196, 196, 196);
+    width: 255px;
+    height: 135px;
+}
+
+.kniga {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.dany {
+    padding-bottom: 20px;
+}
+.left1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 350px;
+    height: 272px;
+}
+
+#content3 {
+    height: 90px;
+    background-color: #4C5866;
+    position: absolute;
+    top: 3175px;
+    z-index: -1;
+    width: 100vw;
+}
+
+.nunu {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
